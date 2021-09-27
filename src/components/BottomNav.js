@@ -1,5 +1,5 @@
 import React from 'react'
-
+import useStyles from './componentStyles/BottomNavStyle';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import VideocamIcon from '@mui/icons-material/Videocam';
@@ -11,16 +11,17 @@ import { Link } from 'react-router-dom';
 
 function BottomNav() {
     const [value, setValue] = React.useState(0);
-   
+    const classes = useStyles();
     return (
         <>
-         <BottomNavigation
+            <BottomNavigation
+                  className={classes.root}
                 value={value}
                 onChange={(event, newValue) => {
                      setValue(newValue);
                 }}
-      showLabels
-            >
+                showLabels
+              >
             
                 <BottomNavigationAction label="Home" icon={<HomeIcon />} component={Link}
         to="/"/>
