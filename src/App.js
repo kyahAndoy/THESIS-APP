@@ -9,7 +9,7 @@ import Home from './Home';
 import Videos from './Videos';
 import Images from './Images';
 import Downloads from './Downloads';
-import Container from "@material-ui/core/Container";
+import Container from "@mui/material/Container";
 
 function App() {
   return (
