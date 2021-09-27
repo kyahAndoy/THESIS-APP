@@ -10,6 +10,7 @@ import Videos from './Videos';
 import Images from './Images';
 import Downloads from './Downloads';
 import Container from "@mui/material/Container";
+import BottomNav from './components/BottomNav';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
               <Route path="/images" component={Images} />
               <Route path="/downloads" component={Downloads} />
         </Switch>
-      
+        <BottomNav />
         </Container>
          </Router>
     </>
