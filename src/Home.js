@@ -1,9 +1,9 @@
 import React from 'react'
-
+import ButtonHolder from './components/ButtonHolder';
 function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <ButtonHolder/>
     </div>
   )
 }

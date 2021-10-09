@@ -16,15 +16,15 @@ function App() {
   return (
     <>
         <Router>
-        <Container maxWidth="xs">
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/videos" component={Videos} />
-              <Route path="/images" component={Images} />
-              <Route path="/downloads" component={Downloads} />
-        </Switch>
-        <BottomNav />
-        </Container>
+            <Container maxWidth="xs">
+                <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/videos" component={Videos} />
+                  <Route path="/images" component={Images} />
+                  <Route path="/downloads" component={Downloads} />
+                </Switch>
+            <BottomNav />
+            </Container>
          </Router>
     </>
 

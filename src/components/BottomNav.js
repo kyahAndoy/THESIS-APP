@@ -1,5 +1,5 @@
 import React from 'react'
-import useStyles from './componentStyles/BottomNavStyle';
+import useStyles from './componentStyles/ComponentsStyle';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import VideocamIcon from '@mui/icons-material/Videocam';

@@ -1,4 +1,5 @@
 import { makeStyles } from '@mui/styles';
+import { flexbox } from '@mui/system';
 
 const useStyle = makeStyles({
     root: {
@@ -7,6 +8,15 @@ const useStyle = makeStyles({
     bottom: 0,
     left: 0,
     borderTop: '#78909C',
+  },
+
+  paper: {
+    display: 'flex',
+    width: '90%',
+    height: '40%',
+    position: 'absolute',
+    bottom: 80,
+    margin: 1,
   },
 });
 
