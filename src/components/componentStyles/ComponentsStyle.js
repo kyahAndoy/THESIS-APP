@@ -14,7 +14,7 @@ const useStyle = makeStyles({
     height: 280,
     position: 'relative',
     left: 0,
-    top: 200,
+    top: 280,
     backgroundColor: '#EEEEEE',
     marginTop:20,
     marginBottom:20,
