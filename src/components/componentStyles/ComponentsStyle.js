@@ -10,13 +10,14 @@ const useStyle = makeStyles({
   },
 
   paper: {
-  
     width: '100%',
     height: 280,
     position: 'relative',
     left: 0,
-    top: 290,
-    backgroundColor:'#EEEEEE',
+    top: 200,
+    backgroundColor: '#EEEEEE',
+    marginTop:20,
+    marginBottom:20,
   },
 
 });

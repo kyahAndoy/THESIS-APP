@@ -8,6 +8,7 @@ function Home() {
   const classes = useStyles();
   return (
     <div>
+      <h1>Home Page</h1>
       <ButtonHolder className={classes.btnHolder}/>
     </div>
   )
