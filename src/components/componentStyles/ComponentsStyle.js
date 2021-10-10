@@ -6,8 +6,7 @@ const useStyle = makeStyles({
     width: '100%',
     position: 'fixed',
     bottom: 0,
-    left: 0,
-   
+    left: 0,   
   },
 
   paper: {
@@ -16,15 +15,10 @@ const useStyle = makeStyles({
     height: 220,
     position: 'relative',
     left: 0,
-    margin: 0,
-    top: 270,
-    backgroundColor:'#EEEEEE'
+    top: 360,
+    backgroundColor:'#EEEEEE',
   },
 
-  btnHolder: {
-
-
-  }
 });
 
 export default useStyle;
