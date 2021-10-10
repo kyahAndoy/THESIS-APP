@@ -12,10 +12,10 @@ const useStyle = makeStyles({
   paper: {
   
     width: '100%',
-    height: 220,
+    height: 280,
     position: 'relative',
     left: 0,
-    top: 360,
+    top: 290,
     backgroundColor:'#EEEEEE',
   },
 
