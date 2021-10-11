@@ -12,7 +12,9 @@ function Home() {
       <ReactPlayer
         width='100%'
         url='https://youtu.be/dNCWe_6HAM8'
-        controls={true}/>
+        controls={true}
+        playing={true}
+        />
       <ButtonHolder className={classes.btnHolder}/>
     </div>
   )
