@@ -14,6 +14,7 @@ function Home() {
         url='https://youtu.be/dNCWe_6HAM8'
         controls={true}
         playing={true}
+        light={true}
         />
       <ButtonHolder className={classes.btnHolder}/>
     </div>
