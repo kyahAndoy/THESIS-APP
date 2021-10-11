@@ -7,13 +7,11 @@ const ButtonHolder = () => {
     const classes = useStyles();
     return (
         <div>
-            
             <Paper
                 variant="outlined"
                 elevation={0}
                 className={classes.paper}
             ></Paper>
-           
         </div>  
     )
 }

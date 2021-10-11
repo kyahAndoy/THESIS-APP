@@ -18,6 +18,15 @@ const useStyle = makeStyles({
     
   },
 
+  video: {
+    borderBottomRightRadius: 100,
+    borderBottomLeftRadius: 100,
+    paddingBottom: 50,
+    marginBottom: 20,
+    paddingTop: 20,
+    
+  },
+
 });
 
 export default useStyle;
