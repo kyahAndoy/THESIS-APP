@@ -14,9 +14,9 @@ import BottomNav from './components/BottomNav';
 
 function App() {
   return (
-    <>
+ 
+      <div className='container'>
         <Router>
-            <Container maxWidth="xs">
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <Route path="/videos" component={Videos} />
@@ -24,9 +24,9 @@ function App() {
                   <Route path="/downloads" component={Downloads} />
                 </Switch>
             <BottomNav />
-            </Container>
-         </Router>
-    </>
+       </Router>
+        </div>
+  
 
   );
 }

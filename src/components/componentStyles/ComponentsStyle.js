@@ -12,19 +12,9 @@ const useStyle = makeStyles({
 
   paper: {
     width: '100%',
-    height: 280,
     backgroundColor: '#EEEEEE',
-    marginTop:20,
-    
-  },
-
-  video: {
-    borderBottomRightRadius: 100,
-    borderBottomLeftRadius: 100,
-    paddingBottom: 50,
-    marginBottom: 20,
-    paddingTop: 20,
-    
+    marginTop: '30px',
+    minHeight: '450px',
   },
 
 });
